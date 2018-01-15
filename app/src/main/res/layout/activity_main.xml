@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.coderlt.animationapplication.MainActivity">
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/skip_tween_animation"
+        android:text="Tween Animation"
+        android:background="@android:color/holo_orange_dark"
+        android:layout_centerHorizontal="true"
+        android:textAllCaps="false"/>
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/move_btn"
+        android:text="Move Button"
+        android:background="@android:color/holo_purple"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/skip_tween_animation"
+        android:textAllCaps="false"/>
+    <Button
+        android:layout_width="200dp"
+        android:layout_height= "wrap_content"
+        android:layout_below="@id/move_btn"
+        android:layout_centerHorizontal="true"
+        android:background="@color/colorAccent"
+        android:text="scrollTo"
+        android:id="@+id/scroll_to"/>
+    <Button
+        android:layout_width="200dp"
+        android:layout_height= "wrap_content"
+        android:layout_below="@id/scroll_to"
+        android:layout_centerHorizontal="true"
+        android:background="@android:color/holo_purple"
+        android:text="scrollBy"
+        android:id="@+id/scroll_by"/>
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/scroll_by"
+        android:id="@+id/property_animation"
+        android:text="property animation"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>
